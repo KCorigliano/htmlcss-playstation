@@ -1,0 +1,36 @@
+.pre-navbar{
+    height: 30px;
+    background-color: black;
+}
+
+.jumbotron{
+    color: white;
+}
+
+.relative{
+    position: relative;
+}
+
+.jumbo-bg img{
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+.jumbo-text img{
+    width: 200px;
+}
+
+.jumbo-text{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translate(-100% 0);
+}
+
+.banner{
+    border-radius: 25%;
+}
+
+.black{
+    background-color: darkgray;
+}
