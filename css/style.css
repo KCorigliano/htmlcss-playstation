@@ -11,8 +11,8 @@ main{
     color: white;
 }
 
-.relative{
-    position: relative;
+.jumbo-margin-top{
+    height: 650px;
 }
 
 .img-bg{
@@ -23,14 +23,14 @@ main{
     width: 200px;
 }
 
-.jumbo-text{
-    position: absolute;
-    bottom: 0;
-    transform: translate(-100% 0);
+.banner img{
+    border-radius: 15px;
+    height: 100px;
+    object-fit: cover;
 }
 
-.banner{
-    border-radius: 25%;
+.rounded-25px{
+    border-radius: 25px;
 }
 
 .black{
@@ -45,8 +45,16 @@ main{
     background-color: #161c3b;
 }
 
-.thumbnail{
-    margin-right: 50%;
+.first-jumbotron-img{
+    background: url(../img/jumbo-bg.png) 50% 25px;
+    height: 650px;
+    background-size: cover;
+}
+
+.second-jumbotron-img{
+    background: url(../img/it-takes-two-hero-banner-desktop.jpg) 50%;
+    height: 650px;
+    background-size: cover;
 }
 
 .blue-text{
@@ -59,6 +67,11 @@ main{
 
 .invisible-banner{
     display: none;
+}
+
+.button{
+    padding: 5px 10px;
+    line-height: 12px;
 }
 
 @media screen and (min-width: 768px) {
