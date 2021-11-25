@@ -34,13 +34,35 @@ main{
 }
 
 .black{
-    background-color: darkgray;
+    background-color: #1f1f1f;
 }
 
 .grey{
-    background-color: grey;
+    background-color: #bebcbb;
 }
 
 .blue{
-    background-color: blue;
+    background-color: #161c3b;
+}
+
+.thumbnail{
+    margin-right: 50%;
+}
+
+.blue-text{
+    color: #187fd2;
+}
+
+.text-white{
+    color: white;
+}
+
+.invisible-banner{
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .invisible-banner{
+        display: block;
+    }
 }

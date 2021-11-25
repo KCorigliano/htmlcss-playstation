@@ -18,16 +18,50 @@
     <header>
         <div class="fixed-top">
             <div class="pre-navbar"></div>
-            <div class="navbar">
-            </div>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">Navbar</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Dropdown
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link disabled">Disabled</a>
+                      </li>
+                    </ul>
+                    <form class="d-flex">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                  </div>
+                </div>
+              </nav>
         </div>
     </header>
 
     <main>
         <!-- Jumbotron -->
-        <img class="col-12" src="img/jumbo-bg.png" alt="">
-        <div class="container-fluid jumbotron first-jumbotron">
-            <div class="container relative">
+        <div>
+            <img class="thumbnail" src="img/jumbo-bg.png" alt="">
+            <div class="container jumbotron relative">
                 <div class="row jumbo-text">
                     <div class="col-6 col-md-4 col-lg-4">
                         <img src="img/returnal-hero-banner-logo.png" alt="">
@@ -52,9 +86,9 @@
         </div>
 
         <div class="container text-center mt-4">
-            <p>Play has no limit</p>
+            <h6 class="blue-text">PLAY HAS NO LIMIT</h6>
             <h3>Ecco la PlayStation 5</h3>
-            <p>Tuffati in nuove possibilità di completamente inaspettate</p>
+            <p>Tuffati in nuove possibilità di gioco completamente inaspettate</p>
         </div>
 
         <div class="container">
@@ -67,11 +101,11 @@
                 <img class="col-12 col-md-6" src="img/playstation-5-thumb.png" alt="">
             </div>
             <div class="row">
-                <div class="col-4 col mt-4"><img class="col-12" src="img/playstation-5-thumb.png" alt=""></div>
-                <div class="col-4 col mt-4"><img class="col-12" src="img/joypad-thumb.png" alt=""></div>
-                <div class="col-4 col mt-4"><img class="col-12" src="img/headset-thumb.png" alt=""></div>
-                <div class="col-4 col mt-4"><img class="col-12" src="img/remote-thumb.png" alt=""></div>
-                <div class="col-4 col mt-4"><img class="col-12" src="img/camera-thumb.jpg" alt=""></div>
+                <div class="mx-auto col-4 col-md-2 mt-4"><img class="col-12" src="img/playstation-5-thumb.png" alt=""></div>
+                <div class="mx-auto col-4 col-md-2 mt-4"><img class="col-12" src="img/joypad-thumb.png" alt=""></div>
+                <div class="mx-auto col-4 col-md-2 mt-4"><img class="col-12" src="img/headset-thumb.png" alt=""></div>
+                <div class="mx-auto col-4 col-md-2 mt-4"><img class="col-12" src="img/remote-thumb.png" alt=""></div>
+                <div class="mx-auto col-4 col-md-2 mt-4"><img class="col-12" src="img/camera-thumb.jpg" alt=""></div>
             </div>
         </div>
 
@@ -88,7 +122,7 @@
             </div>
         </div>
 
-        <div class="container-fluid black">
+        <div class="container-fluid black text-white">
             <div class="container py-4">
                 <h3>Nuove uscite</h3>
                 <p>Giochi incredibili per PS4 e PS5 disponibili ora</p>
@@ -176,42 +210,46 @@
 
         <div class="container-fluid grey">
             <div class="container">
-                <div class="row">
-                    <div class="col-12 col-md-6">
+                <div class="row align-items-center">
+                    <div class="col-12 col-md-6 py-4">
+                        <img class="col-6" src="img/ps-plus-logo.png" alt="">
                         <p>Migliora la tua esperienza Playstation con l'accesso a multigiocare online, giochi mensili, sconti esclusivi e altro ancora.</p>
+                        <button type="button" class="btn btn-primary">Scopri di più</button>
                     </div>
-                    <div class="col col-md-6">
-                        <img class="col-12" src="img/ps-plus-april-monthly-games-featured-image-block.png" alt="">
+                    <div class="col-md-6">
+                        <img class="col-12 invisible-banner" src="img/ps-plus-april-monthly-games-featured-image-block.png" alt="">
                     </div>
                 </div>
             </div>
         </div>
 
         <div class="container">
-            <div class="text-center">
+            <div class="text-center pt-4">
                 <h2>Nuovi sconti sul PlayStation Store</h2>
                 <p>Sconti pazzeschi, collezioni curate e saldi stagionali su PS5, PS4 e PS VR. tutti in un unico posto.</p>
             </div>
-            <div class="row">
-                <div class="col-12 col-md-4">
+            <div class="row pb-4">
+                <div class="col-12 col-md-4 pt-4">
                     <img class="col-12" src="img/playstation-store-games-under-20-spotlight.jpg" alt="">
                 </div>
-                <div class="col-12 col-md-4">
+                <div class="col-12 col-md-4 pt-4">
                     <img class="col-12" src="img/playstation-store-golden-week-sale-spotlight.jpg" alt="">
                 </div>
-                <div class="col-12 col-md-4">
+                <div class="col-12 col-md-4 pt-4">
                     <img class="col-12" src="img/playstation-store-free-to-play-spotlight.png" alt="">
                 </div>
             </div>
         </div>
 
-        <div class="container-fluid blue">
+        <div class="container-fluid blue text-white">
             <div class="container">
-                <div class="row">
-                    <div class="col-12 col-md-6">
+                <div class="row align-items-center">
+                    <div class="col-12 col-md-6 py-4">
+                        <img class="col-6" src="img/ps-now-logo-two-column.png" alt="">
                         <p>Ottieni l'accesso immediato a una vastissima raccolta di oltre 800 giochi per PS4, PS3 e PS2 su PS4 o PC Windows, con nuovi titoli aggiunti ogni mese.</p>
+                        <button type="button" class="btn btn-primary">Scopri di più</button>
                     </div>
-                    <div class="col col-md-6">
+                    <div class="col col-md-6 invisible-banner">
                         <img class="col-12" src="img/ps-now-april-featured-image-block.png" alt="">
                     </div>
                 </div>
@@ -219,20 +257,20 @@
         </div>
 
         <div class="container">
-            <div class="text-center">
-                Seguici sui social media
+            <div class="text-center pt-4">
+                <h3>Seguici sui social media</h3>
             </div>
-            <div class="row">
-                <div class="col-6 col-md-3">
+            <div class="row pb-4">
+                <div class="col-6 col-md-3 pt-4">
                     <img class="col-12" src="img/twitter.jpg" alt="">
                 </div>
-                <div class="col-6 col-md-3">
+                <div class="col-6 col-md-3 pt-4">
                     <img class="col-12" src="img/facebook.jpg" alt="">
                 </div>
-                <div class="col-6 col-md-3">
+                <div class="col-6 col-md-3 pt-4">
                     <img class="col-12" src="img/instagram.jpg" alt="">
                 </div>
-                <div class="col-6 col-md-3">
+                <div class="col-6 col-md-3 pt-4">
                     <img class="col-12" src="img/youtube.png" alt="">
                 </div>
             </div>
