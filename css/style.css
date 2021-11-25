@@ -3,6 +3,10 @@
     background-color: black;
 }
 
+main{
+    margin-top: 50px;
+}
+
 .jumbotron{
     color: white;
 }
@@ -11,9 +15,8 @@
     position: relative;
 }
 
-.jumbo-bg img{
-    object-fit: cover;
-    object-position: 50% 50%;
+.img-bg{
+    position: 50% 50%;
 }
 
 .jumbo-text img{
@@ -23,7 +26,6 @@
 .jumbo-text{
     position: absolute;
     bottom: 0;
-    left: 0;
     transform: translate(-100% 0);
 }
 
@@ -33,4 +35,12 @@
 
 .black{
     background-color: darkgray;
+}
+
+.grey{
+    background-color: grey;
+}
+
+.blue{
+    background-color: blue;
 }
