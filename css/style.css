@@ -3,35 +3,95 @@
     background-color: black;
 }
 
+.navbar img{
+    width: 50px;
+}
+
 main{
     margin-top: 50px;
 }
+
+.img-50{
+    width: 50%;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.rounded-25px{
+    border-radius: 25px;
+}
+
+/* ------------------------ */
 
 .jumbotron{
     color: white;
 }
 
 .jumbo-margin-top{
-    height: 650px;
+    padding: 450px 0 15px 0;
 }
 
-.img-bg{
-    position: 50% 50%;
+.first-jumbotron-img{
+    background: url(../img/jumbo-bg.png) 50% 25px;
+    background-size: cover;
 }
 
-.jumbo-text img{
-    width: 200px;
+.second-jumbotron-img{
+    background: url(../img/it-takes-two-hero-banner-desktop.jpg) 50%;
+    background-size: cover;
 }
 
 .banner img{
     border-radius: 15px;
-    height: 100px;
-    object-fit: cover;
+    padding: 2px;
+    border: 2px transparent solid;
+    transition: 0.5s ease-in-out;
 }
 
-.rounded-25px{
-    border-radius: 25px;
+.banner img:hover{
+    margin-top: -10px!important;
+    box-shadow: 0px 0px 0px 5px white inset;
+    border-color: #2d64e6;
+    transition: all 0.5s ease-in-out;
 }
+
+.device{
+    filter: opacity(60%);
+    transition: all 0.5s;
+}
+
+.device:hover{
+    filter: opacity(100%);
+    border-bottom: 2px solid #187fd2;
+}
+
+.footer-link{
+    color: white;
+    text-decoration: none;
+}
+
+.ps-footer-logo{
+    width: 150px;
+    filter: grayscale(100) invert(100) brightness(100);
+}
+
+.sie-footer-logo{
+    width: 200px;
+}
+
+/* Text color*/
+
+.text-blue{
+    color: #187fd2;
+}
+
+.text-white{
+    color: white;
+}
+
+/* Background */
 
 .black{
     background-color: #1f1f1f;
@@ -42,40 +102,59 @@ main{
 }
 
 .blue{
+    background-color: #00439c;
+}
+
+.dark-blue{
     background-color: #161c3b;
 }
 
-.first-jumbotron-img{
-    background: url(../img/jumbo-bg.png) 50% 25px;
-    height: 650px;
-    background-size: cover;
+/* Button */
+
+.btn-black{
+    background-color: black;
 }
 
-.second-jumbotron-img{
-    background: url(../img/it-takes-two-hero-banner-desktop.jpg) 50%;
-    height: 650px;
-    background-size: cover;
+.btn-red{
+    background-color: #cd3d0f;
+    transition: all 0.5s;
 }
 
-.blue-text{
-    color: #187fd2;
+.btn-blue{
+    background-color: #2d64e6;
+    transition: all 0.5s;
 }
 
-.text-white{
-    color: white;
+.btn-grey{
+    background-color: #d9dadc;
+    transition: all 0.5s;
 }
 
-.invisible-banner{
-    display: none;
+/* vado a lavorare sul box shadow,
+    "inset" per metterlo interno al button,
+    col secondo box-shadow la dimensione del bordo */
+
+.btn-red:hover{
+    box-shadow: 0px 0px 0px 2px black inset, 0px 0px 0px 2px #cd3d0f;
+    transition: all 0.5s;
 }
 
-.button{
-    padding: 5px 10px;
-    line-height: 12px;
+.btn-blue:hover{
+    box-shadow: 0px 0px 0px 2px white inset, 0px 0px 0px 2px #2d64e6;
+    transition: all 0.5s;
 }
 
-@media screen and (min-width: 768px) {
-    .invisible-banner{
-        display: block;
-    }
+.btn-black:hover{
+    box-shadow: 0px 0px 0px 2px white inset, 0px 0px 0px 2px black;
+    transition: all 0.5s;
+}
+
+.btn-darkblue-bg:hover{
+    box-shadow: 0px 0px 0px 2px #161c3b inset, 0px 0px 0px 2px #2d64e6;
+    transition: all 0.5s;
+}
+
+.btn-grey:hover{
+    box-shadow: 0px 0px 5px 1px white;
+    transition: all 0.5s;
 }
